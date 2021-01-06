@@ -17,14 +17,7 @@ font-family: 'Poppins', sans-serif;
 3. 	About
 5.  Travel-box
 5.  Service
-6.  Gallery
-7.  Discount-offer
-8.  Packages
-9.  Testemonial 
-10. Special Offer
-11. Blog
-12. Subscribe
-13. Footer-copyright
+
 ===========*/
 
 /*-------------------------------------
@@ -645,3 +638,38 @@ html,body{
 }
 
 
+
+/*-------------------------------------
+        5. Service
+--------------------------------------*/
+.service {
+    position: relative;
+    padding: 80px 0 54px;
+}
+/* single-ststistics-box */
+.single-service-box {
+    display: flex;
+    margin-bottom:30px;
+}
+/* single-ststistics-box */
+.service-content {
+    max-width: 268px;
+    margin-left: 7px;
+    margin-top: 6px;
+    margin:6px 0 30px 7px;
+    
+}
+.service-content h2 a{
+    color:#565a5c;
+    font-size:16px;
+    text-transform:capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.service-content p{
+    color:#aaa;
+    font-size:14px;
+    text-transform:inherit;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 17px;
+}
