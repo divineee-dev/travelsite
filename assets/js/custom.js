@@ -86,9 +86,9 @@ $(document).ready(function(){
         });
 
 
-    // 3.Countdown timer 
+    // 3.Campaign-Countdown timer 
         
-        function makeTimer() {
+            function makeTimer() {
 
                 var endTime = new Date("January 31, 2021 12:00:00 PDT");            
                 var endTime = (Date.parse(endTime)) / 1000;
@@ -113,9 +113,9 @@ $(document).ready(function(){
                 $("#seconds").html(seconds + '<span class="camp">Second</span>');       
 
         }
-        
         setInterval(function() { makeTimer(); }, 1000);
 
+        
     // 4. owl carousel
     
         // i. #testimonial-carousel
