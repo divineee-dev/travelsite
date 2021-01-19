@@ -63,7 +63,7 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
 	margin: 0;
-	color:#666666;
+	color:#8d8d8d;
 	font-size:14px;
 }
 
@@ -275,26 +275,26 @@ html,body{
 
 .inner-section h1 {
     margin-bottom: 30px;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 900;
 }
 
 .text {
-    font-size: 13px;
+    font-size: 16px;
     color: #545454;
     line-height: 30px;
     text-align: justify;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .skills button {
     font-size: 22px;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 0.1px;
     border: none;
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 8px;
-    width: 200px;
+    width: 300px;
     background-color:#00d8ff;
     color: white;
     cursor: pointer;
@@ -342,7 +342,7 @@ html,body{
 
 
 .heading span {
-  font-style: italic;
+  font-style: 'Poppins', sans-serif;;
   font-size: 30px;
 }
 
@@ -373,13 +373,13 @@ html,body{
 
 .user-name {
   margin-top: 30px;
-  font-size: 35px;
+  font-size: 34px;
 }
 
 .profile h5 {
   font-size: 18px;
   font-weight: 100;
-  letter-spacing: 3px;
+  letter-spacing: -0.1px;
   color: #00D8D5;
 }
 
