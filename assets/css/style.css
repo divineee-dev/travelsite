@@ -1598,3 +1598,31 @@ html,body{
     font-size:16px;
     margin-top:28px;
 }/*foot-icons*/
+
+
+@media screen and (max-width:1200px) {
+    .navborder {
+        border-right: 0px;
+        height: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .navborder {
+        border-right: 0px;
+        height: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .navborder {
+    border-right: 0px;
+    height: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    }
+}
